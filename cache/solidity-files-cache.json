@@ -1,0 +1,77 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Mohsin\\Desktop\\Rabeeb\\Gasless whitelisting\\backend\\contracts\\Whitlist.sol": {
+      "lastModificationDate": 1675337436018,
+      "contentHash": "9f4088d57250574083ea2179fd4fb70b",
+      "sourceName": "contracts/Whitlist.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Whitelist"
+      ]
+    },
+    "C:\\Users\\Mohsin\\Desktop\\Rabeeb\\Gasless whitelisting\\backend\\node_modules\\@openzeppelin\\contracts\\utils\\cryptography\\MerkleProof.sol": {
+      "lastModificationDate": 1675337326586,
+      "contentHash": "a75542fc722f3c5c883583228040bbfe",
+      "sourceName": "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MerkleProof"
+      ]
+    }
+  }
+}
